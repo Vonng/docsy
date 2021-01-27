@@ -1,10 +1,7 @@
 # Vonng's Docsy Fork
 
-Download all CDN resource to local static dir. So this website could run locally without Internet Access.
-
-Scaffold for Pigsty Site
-
-
+* Localize internet cdn content deps
+* Add ICP BeiAn support
 
 # Docsy 
 

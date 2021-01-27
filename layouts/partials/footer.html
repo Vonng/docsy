@@ -22,7 +22,12 @@
 	{{ if not .Site.Params.ui.footer_about_disable }}
 		{{ with .Site.GetPage "about" }}<p class="mt-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}
 	{{ end }}
-      </div>
+  
+  {{ if not .Site.Params.ui.footer_beian_disable }}
+    <p class="mt-2"><a href="http://www.beian.miit.gov.cn/">{{ with .Site.Params.beian_icp_number }}{{ . }}{{ end }}</a></p>
+  {{ end }}
+
+</div>
     </div>
   </div>
 </footer>
