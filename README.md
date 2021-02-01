@@ -7,6 +7,23 @@
   * Useful for china websites
   * Add BeiAn info with params: `params.beian_icp_number`
 
+### How to Use?
+
+```bash
+cd your_hugo_project/themes
+git clone --recurse-submodules --depth 1 https://github.com/Vonng/docsy.git
+
+cd docsy
+npm install --save
+sudo npm install -D --save autoprefixer
+sudo npm install -D --save postcss-cli
+
+```
+
+
+
+
+
 
 
 # Docsy 
