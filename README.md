@@ -1,7 +1,13 @@
-# Vonng's Docsy Fork
+# Docsy (Vonng's local fork)
 
-* Localize internet cdn content deps
+* Move CDN js libs to local static resource.
+  * So the site could run & test locally. Regardeless network condition.
+
 * Add ICP BeiAn support
+  * Useful for china websites
+  * Add BeiAn info with params: `params.beian_icp_number`
+
+
 
 # Docsy 
 
